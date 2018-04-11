@@ -1,4 +1,4 @@
-package com.product.bangcode.exerciseapp.fragment;
+package com.product.bangcode.exerciseapp.roomsample.fragment;
 
 
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.product.bangcode.exerciseapp.R;
-import com.product.bangcode.exerciseapp.activity.StudentActivity;
+import com.product.bangcode.exerciseapp.roomsample.activity.StudentActivity;
 
 
 public class NotificationFragment extends Fragment {

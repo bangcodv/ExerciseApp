@@ -1,4 +1,4 @@
-package com.product.bangcode.exerciseapp.fragment;
+package com.product.bangcode.exerciseapp.roomsample.fragment;
 
 
 import android.content.Context;
@@ -13,8 +13,8 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.product.bangcode.exerciseapp.R;
-import com.product.bangcode.exerciseapp.activity.StudentActivity;
-import com.product.bangcode.exerciseapp.modelDao.Student;
+import com.product.bangcode.exerciseapp.roomsample.activity.StudentActivity;
+import com.product.bangcode.exerciseapp.roomsample.modelDao.Student;
 
 public class AddDataFragment extends Fragment implements View.OnClickListener {
     private final String TAG = getClass().getSimpleName();

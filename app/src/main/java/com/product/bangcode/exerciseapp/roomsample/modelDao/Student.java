@@ -1,4 +1,4 @@
-package com.product.bangcode.exerciseapp.modelDao;
+package com.product.bangcode.exerciseapp.roomsample.modelDao;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;

@@ -1,4 +1,4 @@
-package com.product.bangcode.exerciseapp.fragment;
+package com.product.bangcode.exerciseapp.roomsample.fragment;
 
 
 import android.app.AlertDialog;
@@ -21,9 +21,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.product.bangcode.exerciseapp.R;
-import com.product.bangcode.exerciseapp.activity.StudentActivity;
-import com.product.bangcode.exerciseapp.adapter.StudentAdapter;
-import com.product.bangcode.exerciseapp.modelDao.Student;
+import com.product.bangcode.exerciseapp.roomsample.activity.StudentActivity;
+import com.product.bangcode.exerciseapp.roomsample.adapter.StudentAdapter;
+import com.product.bangcode.exerciseapp.roomsample.modelDao.Student;
 
 
 public class ListStudentFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener {

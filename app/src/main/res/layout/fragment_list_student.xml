@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorGrey"
-    tools:context="com.product.bangcode.exerciseapp.fragment.ListStudentFragment">
+    tools:context=".roomsample.fragment.ListStudentFragment">
 
    <TextView
        android:id="@+id/tvNoData"

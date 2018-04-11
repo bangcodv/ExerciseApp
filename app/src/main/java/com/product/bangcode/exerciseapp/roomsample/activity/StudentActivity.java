@@ -1,4 +1,4 @@
-package com.product.bangcode.exerciseapp.activity;
+package com.product.bangcode.exerciseapp.roomsample.activity;
 
 import android.arch.persistence.room.Room;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.product.bangcode.exerciseapp.R;
-import com.product.bangcode.exerciseapp.database.AppDatabase;
-import com.product.bangcode.exerciseapp.fragment.AddDataFragment;
-import com.product.bangcode.exerciseapp.fragment.ListStudentFragment;
-import com.product.bangcode.exerciseapp.fragment.NotificationFragment;
+import com.product.bangcode.exerciseapp.roomsample.database.AppDatabase;
+import com.product.bangcode.exerciseapp.roomsample.fragment.AddDataFragment;
+import com.product.bangcode.exerciseapp.roomsample.fragment.ListStudentFragment;
+import com.product.bangcode.exerciseapp.roomsample.fragment.NotificationFragment;
 
 public class StudentActivity extends AppCompatActivity {
     private final String TAG =getClass().getSimpleName();

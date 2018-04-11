@@ -1,13 +1,12 @@
-package com.product.bangcode.exerciseapp.adapter;
+package com.product.bangcode.exerciseapp.roomsample.adapter;
 
-import android.support.v7.widget.AppCompatEditText;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.product.bangcode.exerciseapp.R;
-import com.product.bangcode.exerciseapp.modelDao.Student;
+import com.product.bangcode.exerciseapp.roomsample.modelDao.Student;
 
 /**
  * Created by wahyufirmansyah on 4/11/18.

@@ -1,11 +1,11 @@
-package com.product.bangcode.exerciseapp.dao;
+package com.product.bangcode.exerciseapp.roomsample.dao;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 
-import com.product.bangcode.exerciseapp.modelDao.Student;
+import com.product.bangcode.exerciseapp.roomsample.modelDao.Student;
 
 import java.util.List;
 

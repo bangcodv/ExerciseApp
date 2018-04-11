@@ -1,12 +1,10 @@
-package com.product.bangcode.exerciseapp.database;
+package com.product.bangcode.exerciseapp.roomsample.database;
 
 import android.arch.persistence.room.Database;
-import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
-import android.content.Context;
 
-import com.product.bangcode.exerciseapp.dao.StudentDao;
-import com.product.bangcode.exerciseapp.modelDao.Student;
+import com.product.bangcode.exerciseapp.roomsample.dao.StudentDao;
+import com.product.bangcode.exerciseapp.roomsample.modelDao.Student;
 
 /**
  * Created by wahyufirmansyah on 4/10/18.

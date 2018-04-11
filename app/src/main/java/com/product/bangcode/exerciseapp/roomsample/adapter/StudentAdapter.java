@@ -1,4 +1,4 @@
-package com.product.bangcode.exerciseapp.adapter;
+package com.product.bangcode.exerciseapp.roomsample.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.product.bangcode.exerciseapp.R;
-import com.product.bangcode.exerciseapp.modelDao.Student;
+import com.product.bangcode.exerciseapp.roomsample.modelDao.Student;
 
 import java.util.ArrayList;
 import java.util.List;
