@@ -4,6 +4,7 @@ import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
+import android.arch.persistence.room.Update;
 
 import com.product.bangcode.exerciseapp.roomsample.modelDao.Student;
 
@@ -37,5 +38,6 @@ public interface StudentDao {
     @Query("DELETE FROM student")
     void deleteAll();
 
-
+    @Update
+    void update(Student... students);
 }

@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 
 import com.product.bangcode.exerciseapp.R;
 import com.product.bangcode.exerciseapp.roomsample.modelDao.Student;
+import com.product.bangcode.exerciseapp.roomsample.utils.Param;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +45,14 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentViewHolder> {
         holder.deleteIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onAdapterClick.onClick(student, position);
+                onAdapterClick.onClick(student, Param.DELETE);
+            }
+        });
+
+        holder.editIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onAdapterClick.onClick(student, Param.EDIT);
             }
         });
     }
@@ -60,6 +68,6 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentViewHolder> {
     }
 
     public interface OnAdapterClick{
-        void onClick(Student student, int position);
+        void onClick(Student student, int typeExe);
     }
 }

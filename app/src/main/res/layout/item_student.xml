@@ -42,11 +42,20 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/editIcon"
+            android:layout_width="20dp"
+            android:clickable="true"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/deleteIcon"
+            android:src="@drawable/ic_edit"/>
+
+        <ImageView
             android:id="@+id/deleteIcon"
             android:layout_alignParentRight="true"
-            android:layout_width="30dp"
+            android:layout_width="20dp"
             android:clickable="true"
-            android:layout_height="30dp"
+            android:layout_height="20dp"
             android:src="@drawable/ic_delete"/>
     </RelativeLayout>
 

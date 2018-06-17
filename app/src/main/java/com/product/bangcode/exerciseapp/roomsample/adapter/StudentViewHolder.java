@@ -15,7 +15,7 @@ import com.product.bangcode.exerciseapp.roomsample.modelDao.Student;
 public class StudentViewHolder extends RecyclerView.ViewHolder{
 
     public TextView tvName, tvEmail, tvAge;
-    public ImageView deleteIcon;
+    public ImageView deleteIcon, editIcon;
 
     public StudentViewHolder(View itemView) {
         super(itemView);
@@ -24,6 +24,7 @@ public class StudentViewHolder extends RecyclerView.ViewHolder{
         tvEmail = (TextView) itemView.findViewById(R.id.tvEmail);
         tvAge = (TextView) itemView.findViewById(R.id.tvAge);
         deleteIcon= (ImageView) itemView.findViewById(R.id.deleteIcon);
+        editIcon= (ImageView) itemView.findViewById(R.id.editIcon);
     }
 
     public void setStudent(Student student){
